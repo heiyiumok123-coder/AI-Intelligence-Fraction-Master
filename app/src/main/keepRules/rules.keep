@@ -1,0 +1,21 @@
+# --- Google ML Kit ---
+-keep class com.google.mlkit.** { *; }
+-keep class com.google.android.gms.internal.mlkit_vision_text_common.** { *; }
+-keep class com.google.android.gms.vision.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+
+# --- CameraX ---
+-keep class androidx.camera.** { *; }
+-keep interface androidx.camera.** { *; }
+-dontwarn androidx.camera.**
+
+# --- Compose & Lifecycle ---
+-keep class androidx.compose.ui.platform.** { *; }
+-keep class androidx.lifecycle.** { *; }
+
+# --- R8 Optimization ---
+-repackageclasses ''
+-allowaccessmodification
+-overloadaggressively
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable,Signature,EnclosingMethod,*Annotation*

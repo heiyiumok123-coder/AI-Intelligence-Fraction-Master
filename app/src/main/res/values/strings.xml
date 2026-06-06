@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">Baking with Gemini</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">Provide a recipe for the baked goods in the image</string>
+    <string name="image1_description">Cupcake</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+    <string name="fraction_title">分數練習工具</string>
+    <string name="label_numerator">分子</string>
+    <string name="label_denominator">分母</string>
+    <string name="op_add">+</string>
+    <string name="op_sub">-</string>
+    <string name="op_mul">×</string>
+    <string name="op_div">÷</string>
+    <string name="op_compare">比較</string>
+    <string name="op_simplify">化簡左邊</string>
+    <string name="label_auto_simplify">自動化簡結果</string>
+</resources>
